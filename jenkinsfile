@@ -1,6 +1,6 @@
 node {
     stage("clone") {
-        git branch: 'main', url: 'https://github.com/sassonefi/DevOps2412_.git'
+        git branch: 'master', url: 'https://github.com/sassonefi/DevOps2412_.git'
     }
     stage("show files"){
         sh "ls -l"
