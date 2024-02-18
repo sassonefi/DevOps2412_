@@ -32,12 +32,10 @@ my_other_name = "moshe"
 if my_other_name in my_other_list: # check if moshe is inthe list
     print("i found it")
 
-tt = 50
-rr = 50
-print(tt is rr)
+
 
 tt = [1, 2, 3]
 rr = [1, 2, 3]
 print(type(tt) is list) #check the type of tt and check if this is a list
 
-
+print("new print")
